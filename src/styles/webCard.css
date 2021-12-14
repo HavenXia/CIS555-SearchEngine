@@ -1,0 +1,12 @@
+.search-result {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  width: 50%;
+  align-self: center;
+}
+
+.result-title {
+  text-decoration: none;
+  font-size: 1.8em;
+}
