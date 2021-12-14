@@ -8,7 +8,6 @@
     "build": "npm install && cd client && npm install && npm run build"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7"
+    "express": "^4.17.1"
   }
 }
