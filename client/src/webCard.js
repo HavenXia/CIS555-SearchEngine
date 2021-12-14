@@ -7,6 +7,7 @@ const WebCard = (props) => {
 
   // truncate too long url
   let urlExpression = "";
+  if (title.length > 100) title = title.substring(0, 100);
   if (url.length > 80) {
     urlExpression = url.substring(0, 80) + "...";
   }
